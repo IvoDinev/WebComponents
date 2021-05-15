@@ -5,11 +5,25 @@
     <meta charset="utf-8">
     <title>Ivaylo Dinev - Homewor</title>
     <script src="shapes.js" defer></script>
+    <script src="currencies.js" defer></script>
   </head>
   <body>
+    <h1>Task 1</h1>
     <h1>Here's a randomly coloured circle...</h1>
     <shape-circle color="random"></shape-circle>
     <h1>Here's a red circle...</h1>
     <shape-circle color="red"></shape-circle>
+    <hr>
+    <h1>Task 2</h1>
+    <div style="display: flex; justify-content: space-between;">
+      <div id="USD-section">
+        <h2>USD as base currency</h2>
+        <ul id="usd-currencies-list"></ul>
+      </div>
+      <div id="GBP-section">
+        <h2>GBP as base currency</h2>
+        <ul id="gbp-currencies-list"></ul>
+      </div>
+    </div>
   </body>
 </html>
